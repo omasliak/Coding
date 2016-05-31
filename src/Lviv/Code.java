@@ -15,6 +15,7 @@ public class Code {
 	    Scanner sc = new Scanner(System.in);
 	    System.out.println("Enter your message");
 	    b= sc.nextLine();
+	    b=b.toLowerCase();
 	    int c=b.length();	  
 	    Scanner bias = new Scanner(System.in);
 	    System.out.println("Enter bias");
